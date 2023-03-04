@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ white_shulker_box run function deco_block:impl/block/destroy

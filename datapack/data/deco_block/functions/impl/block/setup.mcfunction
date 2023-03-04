@@ -1,0 +1,2 @@
+data merge entity @s {Rotation:[0.0f,0.0f],item:{id:"air",Count:1b},transformation:{translation:[0f, 0f, 0f], scale:[2.001f, 2.001f, 2.001f], left_rotation:[0.0f, 0.0f, 0.0f, 1.0f], right_rotation:[0f, 0f, 0f, 1.0f]},Tags:["deco_block"]}
+data modify entity @s item set from storage deco_block:data root.item

@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:furnace",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\": \"block.tfp.smeltery\",\"color\": \"white\",\"italic\": false}',Lore:['{\"translate\": \"pack.tfp\",\"color\": \"#FB0000\",\"italic\": true}']},CustomModelData:880000,BlockEntityTag:{Items:[{id:\"minecraft:furnace\",Count:1b,Slot:0b,tag:{CustomModelData:880000,smithed:{block:{id:\"deco_block\"}},deco_block:{drop:\"tfp:smeltery\"}}}]}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

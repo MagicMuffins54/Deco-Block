@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{Item:{id:\"minecraft:white_shulker_box\",tag:{BlockEntityTag:{Items:[],Lock:\"꒭\",id:\"minecraft:shulker_box\"},display:{Name:'{\"text\":\"꒭\"}'}}},Age:0s}"
+  }
+}

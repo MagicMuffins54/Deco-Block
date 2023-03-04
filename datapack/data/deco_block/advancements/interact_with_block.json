@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "interact": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "nbt": "{CustomName:'{\"text\":\"꒭\"}'}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "deco_block:impl/block/silence"
+    }
+  }
+  

@@ -1,0 +1,1 @@
+execute if data storage smithed.custom_block:main blockApi{id:"deco_block"} run function deco_block:impl/block/nbt

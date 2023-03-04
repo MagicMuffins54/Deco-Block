@@ -1,0 +1,2 @@
+scoreboard objectives add deco_block.mine minecraft.mined:white_shulker_box
+function deco_block:impl/10_second

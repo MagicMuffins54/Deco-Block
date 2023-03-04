@@ -1,0 +1,1 @@
+execute as @a[scores={deco_block.mine=1..}] at @s run function deco_block:impl/mine
