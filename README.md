@@ -18,7 +18,7 @@ execute if data storage deco_block:data root{drop:"namespace:cool_ore"} run loot
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{BlockEntityTag:{Items:[{id:\"minecraft:furnace\",Count:1b,Slot:0b,tag:{CustomModelData:1,smithed:{block:{id:\"deco_block\"}},deco_block:{drop:\"namespace:cool_ore\"}}}]}}"
+                "tag": "{BlockEntityTag:{Items:[{id:\"minecraft:furnace\",Count:1b,Slot:0b,tag:{CustomModelData:<cmd of the displayed block goes here>,smithed:{block:{id:\"deco_block\"}},deco_block:{drop:\"<tag to check for which block you mined (namespacing suggested)>\"}}}]}}"
               }
             ]
           }
