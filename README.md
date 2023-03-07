@@ -1,4 +1,6 @@
 # How to use CUSTOM BLOCK:
+(library resource pack NOT required)
+
 1) add to your pack the function tag at `...\data\deco_block\tags\functions\block\drops.json`, which calls a function that runs a command like
 
 ```haskell
@@ -37,6 +39,8 @@ storage `deco_block:data root.tool` contains the nbt of the tool used to mine th
 support for looting enchant coming soon
 
 # How to use CUSTOM CROP:
+(library resource pack REQUIRED)
+
 1) add to your pack the function tag at `...\data\deco_block\tags\functions\crops\drops.json`, which calls a function that runs a command like
 
 ```haskell
