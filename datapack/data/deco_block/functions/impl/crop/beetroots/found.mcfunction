@@ -1,0 +1,1 @@
+execute align xyz positioned ~.5 ~ ~.5 unless entity @e[type=item_display,distance=..0,tag=deco_block.crop] summon item_display run function deco_block:impl/crop/beetroots/setup

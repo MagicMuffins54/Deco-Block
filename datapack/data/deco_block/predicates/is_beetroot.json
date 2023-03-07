@@ -1,0 +1,20 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Item:{id:\"minecraft:beetroot_seeds\"},Age:0s}"
+            }
+        },
+        {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Item:{id:\"minecraft:beetroot\"},Age:0s}"
+        }
+      }
+    ]
+  }
+  

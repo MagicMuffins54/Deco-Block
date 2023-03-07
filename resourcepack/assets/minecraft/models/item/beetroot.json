@@ -1,0 +1,17 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/beetroot"
+    },
+    "overrides": [
+      {"predicate": {"custom_model_data": 880000},"model": "deco_block:block/beetroot/stage0"},
+      {"predicate": {"custom_model_data": 880001},"model": "deco_block:block/beetroot/stage1"},
+      {"predicate": {"custom_model_data": 880002},"model": "deco_block:block/beetroot/stage2"},
+      {"predicate": {"custom_model_data": 880003},"model": "deco_block:block/beetroot/stage3"},
+      {"predicate": {"custom_model_data": 880004},"model": "deco_block:block/banana/stage0"},
+      {"predicate": {"custom_model_data": 880005},"model": "deco_block:block/banana/stage1"},
+      {"predicate": {"custom_model_data": 880006},"model": "deco_block:block/banana/stage2"},
+      {"predicate": {"custom_model_data": 880007},"model": "deco_block:block/banana/stage3"}
+
+    ]
+}
