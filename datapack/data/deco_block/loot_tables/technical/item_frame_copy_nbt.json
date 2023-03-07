@@ -1,0 +1,39 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{smithed:{id:\"deco_block\"},EntityTag:{Invulnerable:1b,Invisible:1b,Fixed:1b,Rotation:1b,Tags:[\"deco_block\"]}}"
+              },
+              {
+                "function": "minecraft:copy_nbt",
+                "source": {
+                  "type": "minecraft:storage",
+                  "source": "tfp:data"
+                },
+                "ops": [
+                  {
+                    "source": "root.item",
+                    "target": "EntityTag.Item",
+                    "op": "merge"
+                  },
+                  {
+                    "source": "root.item.tag.CustomModelData",
+                    "target": "CustomModelData",
+                    "op": "merge"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

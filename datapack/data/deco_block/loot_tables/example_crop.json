@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:item_frame",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{smithed:{id:\"deco_block\"},CustomModelData:880000,EntityTag:{Invulnerable:1b,Invisible:1b,Fixed:1b,Rotation:1b,Tags:[\"deco_block\"],Item:{id:\"minecraft:furnace\",Count:1b,tag:{CustomModelData:880000,deco_block:{crop:\"banana\",CustomModelData:[880001,880002,880003]}}}}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

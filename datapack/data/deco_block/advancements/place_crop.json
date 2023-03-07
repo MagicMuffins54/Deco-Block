@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "place": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:item_frame"
+            ],
+            "nbt": "{smithed:{id:\"deco_block\"}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "deco_block:impl/crop/place_check"
+    }
+  }
+  
